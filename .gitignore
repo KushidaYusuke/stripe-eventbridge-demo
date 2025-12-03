@@ -1,0 +1,28 @@
+# Terraform local state & caches
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*.override.tf
+*.override.tf.json
+
+# Build artifacts
+lambda.zip
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
